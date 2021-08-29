@@ -16,7 +16,7 @@ html
 
 .navb
 {
-    background-image: url("./Images/Backgroundimage.png");
+    background-image: url("./Images/AboutNew.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,12 +60,12 @@ html
 
 #item1
 {
-    background-color: #1B579F;
+    background-color: #39B24A;
 }
 
 #item2
 {
-    background-color: #39B24A;
+    background-color: #1B579F;
     
 }
 
@@ -127,50 +127,47 @@ html
 }
 }
 
-/* body */
-.card
+.blogo
 {
+    margin-left: -12px !important;
+}
+
+.Firstcardcontainer
+{
+    padding-top: 170px !important;
+    padding-bottom: 200px !important;
+}
+.Firstcard
+{
+    border: #1B579F solid 2px;
+    border-radius: 30px;
+    padding: 50px;
+    filter: drop-shadow(1px 3px 4px #3f3e3e7c);
+    box-shadow: 1px 3px 4px #3f3e3e7c;
+
+   
+}
+
+.Secondcardcontainer
+{
+    padding-bottom: 200px !important;
     
-    border-radius: 50px;
-    filter: drop-shadow(1px 2px 2px #000000);
-    margin-bottom: 50px;
-    
-    border-radius: 40px;
 }
 
-.card-img-overlay
+.firstfont
 {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px !important;
-    margin-top: 200px !important;
-    
-  
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.card-img-overlay a
+#logo-botom
 {
-    background-color: #39B24A;
-    border-radius: 30px ;
-    border: unset;
-    height: 40px;
-    filter: drop-shadow(2px 3px 3px #000000);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    max-width:300px;
+    padding-bottom: 9px;
+    margin-top: -100px !important;
+    float: right !important;
+    margin-right: -10px !important;
 
-.card-img-overlay a:hover 
-{
-    background-color: #1B579F !important ;
-}
-
-.costumcol
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /*footer*/
