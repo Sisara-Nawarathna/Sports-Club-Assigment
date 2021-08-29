@@ -1,0 +1,282 @@
+*
+{
+    margin-top: -0.8px !important;
+
+}
+.navbar-brand
+{
+   max-width: 80px;
+  
+}
+
+.navb
+{
+    background-image: url("./Images/Backgroundimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+    filter: drop-shadow(1px 3px 4px #3f3e3e7c);
+    
+}
+.navigation-item
+{   
+    width: 140px;
+    text-align: center;
+    margin-right: 90px;
+    padding-left: 6px;
+    padding-right: 6px;
+    filter: drop-shadow(1px 2px 2px #000000);
+    border-radius: 0px 0px 10px 10px;
+    transition-duration: 0.5s;
+
+}
+
+.navigation-item:hover
+{
+    background-color: rgb(11, 109, 3) !important;
+}
+
+.navbar
+{
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    width: 100%;
+    position: absolute;
+}
+
+.navbar span
+{
+    color: white !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#item1
+{
+    background-color: #1B579F;
+}
+
+#item2
+{
+    background-color: #39B24A;
+    
+}
+
+#item3
+{
+    background-color: #39B24A;
+   
+}
+
+.logo
+{
+    margin-left: -12px !important;
+    margin-right: 90px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.374) 2px 4px 6px;
+    background-color: white;
+}
+
+.BgtextIMG
+{
+    max-height: 180px;
+}
+
+.Bgtext
+{
+    padding-top: 90px !important;
+    
+}
+
+.Textimage
+{
+    background-image: linear-gradient(90deg, white, rgba(255, 255, 255, 0.452), rgba(0, 0, 0, 0) );
+    width: 100%;
+    min-height: 300px;
+}
+
+@media (max-width: 576px)
+{
+    .Bgtext
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px !important;
+
+    
+}
+
+.Textimage
+{
+    background-image: linear-gradient(90deg, white, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.829), rgba(0, 0, 0, 0) );
+  
+}
+}
+
+/* body */
+.card
+{
+    
+    border-radius: 50px;
+    filter: drop-shadow(1px 2px 2px #000000);
+    margin-bottom: 50px;
+}
+
+.card-img-overlay
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px !important;
+    margin-top: 200px !important;
+    
+  
+}
+
+.card-img-overlay a
+{
+    background-color: #39B24A;
+    border-radius: 30px ;
+    border: unset;
+    height: 40px;
+    filter: drop-shadow(2px 3px 3px #000000);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-img-overlay a:hover 
+{
+    background-color: #1B579F !important ;
+}
+
+.costumcol
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*footer*/
+footer
+{
+background-image: linear-gradient(#30a945,#30a945);
+
+width: 100%;
+margin-bottom: 0;
+height: auto;
+color: white !important;
+padding-bottom: 0 !important;
+margin-left: 0px !important;
+padding-left: 0px !important;
+
+}
+.footerpara{
+color: white !important;
+}
+
+.frow
+{
+padding-top: 55px !important;
+height: fit-content;
+padding-left: 0px !important;
+}
+
+#logo-footer
+{
+max-width:300px;
+padding-bottom: 9px;
+margin-top: 50px !important;
+position: absolute;
+
+}
+
+
+
+.copyright
+{
+text-align: center;
+background-color: green;
+bottom: 0;
+height: 50px;
+}
+
+.copyright p
+{
+margin-bottom: 0 !important;
+padding-top: 10px;
+color: white !important;
+}
+
+#Footer-Img
+{
+padding-left: 150px;
+height: 300px;
+}
+
+
+.faicon
+{
+margin: 2px;
+height: 35px;
+width: 35px;
+background-color: rgb(255,255, 255);
+border-radius: 50%;
+}
+.faicon .li
+{
+padding-top: 7px;
+}
+.faicon .tw
+{
+padding-top: 9px;
+}
+.faicon .git
+{
+padding-top: 8px;
+}
+
+.fsocial
+{
+color: #30A945;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+transition: 0.4s;
+}
+.fsocial:hover
+{
+text-decoration: none;
+color: #248033;
+}
+
+.footer-icons
+{
+display: flex !important;
+}
+
+.Footer-pera
+{
+    margin-top: 190px !important;
+}
+
+.navbar-nav
+{
+    float: right !important;
+}
+@media (max-width: 991px)
+{
+    .navigation-item
+    {
+        margin-top: 4px !important;
+        border-radius: 10px 10px 10px 10px;
+        margin-right: -8px !important;
+    }
+}
